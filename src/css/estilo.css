@@ -1,9 +1,8 @@
-body{
+body {
     background-image: url(fundo_portsantos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
     font-family: 'Kanit', sans-serif;
     color: #f3f3f3;
     font-size: 18px;
@@ -13,113 +12,90 @@ body{
     min-height: 100vh;
     padding: 30px;
 }
-
 ::-webkit-scrollbar {
     width: 12px;
-  }
-
-  ::-webkit-scrollbar-track {
+}
+::-webkit-scrollbar-track {
     background-color: #f3f2f2;
-  }
-
-  ::-webkit-scrollbar-thumb {
+}
+::-webkit-scrollbar-thumb {
     background-color: #634af3;
     scrollbar-color: #6c6af5 #e7e4e4;
-  }
-
-
-.cartao{
+}
+.cartao {
     background-color: #07111a;
     width: 370px;
     border: 2px solid #f1f1f1;
     border-radius: 20px;
     overflow: hidden;
 }
-
-.cartao .minhas-informacoes{
+.cartao .minhas-informacoes {
     padding-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
 }
-
-.cartao .minhas-informacoes img{
+.cartao .minhas-informacoes img {
     width: 100px;
     height: 100px;
     border-radius: 50px;
     border: 4px solid #205b8b;
 }
-
-.cartao .minhas-informacoes .nome{
+.cartao .minhas-informacoes .nome {
     font-size: 26px;
 }
-
-.cartao .minhas-informacoes .cargo{
+.cartao .minhas-informacoes .cargo {
     font-size: 20px;
     color: #b8bbc5;
 }
-
-.cartao .conteudo{
+.cartao .conteudo {
     margin-top: 15px;
 }
-
-.cartao .abas{
-    display:flex;
+.cartao .abas {
+    display: flex;
 }
-
-.cartao .abas .aba{
+.cartao .abas .aba {
     width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     padding: 20px;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
 }
-
-.cartao .abas img{
+.cartao .abas img {
     width: 40px;
 }
-
-.cartao .abas .aba.selecionado{
+.cartao .abas .aba.selecionado {
     background-color: #161515;
 }
-
-.cartao .informacoes-abas{
+.cartao .informacoes-abas {
     background-color: #1a1919;
 }
-
-.cartao .abas .aba:hover{
+.cartao .abas .aba:hover {
     background-color: #141313;
 }
-
-.informacoes-abas .informacao{
+.informacoes-abas .informacao {
     min-height: 260px;
     padding: 15px;
     display: none;
 }
-
-.informacoes-abas .informacao.selecionado{
+.informacoes-abas .informacao.selecionado {
     display: flex;
 }
-
-.informacoes-abas .sub-titulo{
+.informacoes-abas .sub-titulo {
     font-size: 22px;
     text-align: center;
 }
-
-
-.informacoes-abas .descricao{
+.informacoes-abas .descricao {
     font-size: 20px;
     max-height: 180px;
     overflow-y: auto;
     padding-right: 15px;
 }
-
-.informacoes-abas .descricao span{
+.informacoes-abas .descricao span {
     color: #02d08f;
 }
-
 .informacao {
     display: flex;
     flex-direction: column;
@@ -132,56 +108,42 @@ body{
     max-width: 600px;
     margin: 0 auto;
     align-items: center;
-    }
-
-    .informacao li a {
-        width: 250px;
-        display: flex;
-        color: #dfdfdf;
-        text-align: center;
-        padding: 10px;
-        font-size: 17px;
-        transition: opacity 0.3s ease-in-out;
-        justify-content: center;
-        margin: 10px;
-    }
-
-    .informacao li a:hover{
-        opacity: 0.8;
-    }
-
-    .informacao .caminhão1{
-        background-color: #77d2f0 ;
-
-    }
-
-    .informacao .caminhão2{
-        background-color: #87CEFA ;
-
-    }
-
-    .informacao .caminhão3{
-        background-color: #1E90FF;
-
-    }
-    .informacao .caminhão4{
-        background-color: #4169E1 ;
-
-    }
-    .informacao .caminhão5{
-        background-color: #0000FF ;
-
-    }
-    .informacao .caminhão6{
-        background-color: #00008B ;
-
-    }
-    .informacao .caminhão7{
-        background-color: #191970 ;
-
-    }
-    .informacao .bugs{
-        background-color: #2693fa;
-
-    }
-
+}
+.informacao li a {
+    width: 250px;
+    display: flex;
+    color: #dfdfdf;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+    transition: opacity 0.3s ease-in-out;
+    justify-content: center;
+    margin: 10px;
+}
+.informacao li a:hover {
+    opacity: 0.8;
+}
+.informacao .caminhão1 {
+    background-color: #77d2f0;
+}
+.informacao .caminhão2 {
+    background-color: #87CEFA;
+}
+.informacao .caminhão3 {
+    background-color: #1E90FF;
+}
+.informacao .caminhão4 {
+    background-color: #4169E1;
+}
+.informacao .caminhão5 {
+    background-color: #0000FF;
+}
+.informacao .caminhão6 {
+    background-color: #00008B;
+}
+.informacao .caminhão7 {
+    background-color: #191970;
+}
+.informacao .bugs {
+    background-color: #2693fa;
+}
